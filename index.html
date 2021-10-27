@@ -11,20 +11,20 @@
     <a-scene>
       <!-- Particle system uses 'default' preset, setting custom colors. -->
       <a-entity 
-            position="0 0 0" 
+            position="0 0 -5" 
             particle-system="
                 preset: default;
                 texture: ./images/heart2.png;
                 color: #FF0000, #FFFF00; 
                 size: 1, 0;
-                velocityValue: 0.001 0.001 0.001;
-                velocitySpread: 0.5 0 0.5; 
+                velocityValue: 0.001 0.01 0.001;
+                velocitySpread: 0.5 1 0.5; 
                 accelerationValue: 0.001 0.001 0.001;
                 accelerationSpread: 0.001 0.001 0.001;
                 rotationAngle: 0; 
                 blending: 1;
-                particleCount: 200;
-                maxAge: 5; ">
+                particleCount: 100;
+                maxAge: 3; ">
     </a-entity> 
       <a-sky color="#000000"></a-sky>
     </a-scene>
