@@ -37,29 +37,29 @@
         {
             "bufferView" : 0,
             "componentType" : 5126,
-            "count" : 70,
+            "count" : 99,
             "max" : [
                 1,
-                0.4270403981208801,
+                0.4270404279232025,
                 0.10690951347351074
             ],
             "min" : [
                 -0.9999998807907104,
                 -0.7077957987785339,
-                -0.10690951347351074
+                0.08523006737232208
             ],
             "type" : "VEC3"
         },
         {
             "bufferView" : 1,
             "componentType" : 5126,
-            "count" : 70,
+            "count" : 99,
             "type" : "VEC3"
         },
         {
             "bufferView" : 2,
             "componentType" : 5126,
-            "count" : 70,
+            "count" : 99,
             "type" : "VEC2"
         },
         {
@@ -72,29 +72,29 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 840,
+            "byteLength" : 1188,
             "byteOffset" : 0
         },
         {
             "buffer" : 0,
-            "byteLength" : 840,
-            "byteOffset" : 840
+            "byteLength" : 1188,
+            "byteOffset" : 1188
         },
         {
             "buffer" : 0,
-            "byteLength" : 560,
-            "byteOffset" : 1680
+            "byteLength" : 792,
+            "byteOffset" : 2376
         },
         {
             "buffer" : 0,
             "byteLength" : 240,
-            "byteOffset" : 2240
+            "byteOffset" : 3168
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 2480,
-            "uri" : "data:application/octet-stream;base64,Bmhfvzjt8b5g89q9+xIZvzjt8b5g89q9+xIZvzjt8b5g89o9Bmhfvzjt8b5g89o9ptvDvjjt8b5g89o9PGpfPzjt8b5g89o9AACAPyy8x75g89o9AACAP9yJvT5g89o9YIVpPwql2j5g89o90GBpvwql2j5g89o9/v9/v4ZavT5g89o9/v9/v065x75g89o9Bmhfvzjt8b5g89o9+xIZvzjt8b5g89o9+xIZvzjt8b5g89q9Bmhfvzjt8b5g89q9/v9/v065x75g89q9/v9/v4ZavT5g89q90GBpvwql2j5g89q9YIVpPwql2j5g89q9AACAP9yJvT5g89q9AACAPyy8x75g89q9PGpfPzjt8b5g89q9ptvDvjjt8b5g89q90GBpvwql2j5g89o90GBpvwql2j5g89q9/v9/v4ZavT5g89q9/v9/v4ZavT5g89o9YIVpPwql2j5g89q90GBpvwql2j5g89q90GBpvwql2j5g89o9YIVpPwql2j5g89o9YIVpPwql2j5g89q9YIVpPwql2j5g89o9AACAP9yJvT5g89o9AACAP9yJvT5g89q9/v9/v065x75g89o9/v9/v4ZavT5g89o9/v9/v4ZavT5g89q9/v9/v065x75g89q9PGpfPzjt8b5g89o9PGpfPzjt8b5g89q9AACAPyy8x75g89q9AACAPyy8x75g89o9AACAPyy8x75g89q9AACAP9yJvT5g89q9AACAP9yJvT5g89o9AACAPyy8x75g89o9Bmhfvzjt8b5g89q9Bmhfvzjt8b5g89o9/v9/v065x75g89o9/v9/v065x75g89q9ptvDvjjt8b5g89q9PGpfPzjt8b5g89q9PGpfPzjt8b5g89o9ptvDvjjt8b5g89o9+xIZvzjt8b5g89o9+xIZvzjt8b5g89q9uksevxsyNb9g89q9uksevxsyNb9g89o9ptvDvjjt8b5g89q9ptvDvjjt8b5g89o9uksevxsyNb9g89o9uksevxsyNb9g89q9+xIZvzjt8b5g89q9ptvDvjjt8b5g89q9uksevxsyNb9g89q9ptvDvjjt8b5g89o9+xIZvzjt8b5g89o9uksevxsyNb9g89o9AAAAAAAAgL8AAACAAAAAAAAAgL8AAACAAAAAAAAAgL8AAACAAAAAAAAAgL8AAACAAAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAANmHjzEAAIC/AAAAANmHjzEAAIC/AAAAANmHjzEAAIC/AAAAANmHjzEAAIC/AAAAANmHjzEAAIC/AAAAANmHjzEAAIC/AAAAANmHjzEAAIC/AAAAANmHjzEAAIC/AAAAANmHjzEAAIC/AAAAANmHjzEAAIC/ESALv03lVj8AAACAESALv03lVj8AAACAESALv03lVj8AAACAESALv03lVj8AAACAAAAAAAAAgD8AAACAAAAAAAAAgD8AAACAAAAAAAAAgD8AAACAAAAAAAAAgD8AAACADSALP0/lVj8AAACADSALP0/lVj8AAACADSALP0/lVj8AAACADSALP0/lVj8AAACAAACAvwAAAAAAAACAAACAvwAAAAAAAACAAACAvwAAAAAAAACAAACAvwAAAAAAAACADSALP1DlVr8AAACADSALP1DlVr8AAACADSALP1DlVr8AAACADSALP1DlVr8AAACAAACAPwAAAAAAAACAAACAPwAAAAAAAACAAACAPwAAAAAAAACAAACAPwAAAAAAAACAFiALv0rlVr8AAACAFiALv0rlVr8AAACAFiALv0rlVr8AAACAFiALv0rlVr8AAACAAAAAAP//f78AAACAAAAAAP//f78AAACAAAAAAP//f78AAACAAAAAAP//f78AAACAHQt/v7ThsD0AAACAHQt/v7ThsD0AAACAHQt/v7ThsD0AAACAHQt/v7ThsD0AAACASNE0P5A4Nb8AAACASNE0P5A4Nb8AAACASNE0P5A4Nb8AAACASNE0P5A4Nb8AAACAAAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AAAAAHnYHTIAAIA/AAAAAHnYHTIAAIA/AAAAAHnYHTIAAIA//UsQPgAAAD+CdjM+AAAAP4R2Mz4AAIA+/ksQPgAAgD4AAMA+MBKePQAAwD4gtW8+yLnLPgAAgD6Z9Bs/AACAPgAAID+wwnQ+AAAgP4D5NDwG7hs/AAAAAJO6yz4AAAAAAADAPuBfgjwAAMA+ANpNPQAAwD5fIjM/AADAPgDtOz+Uuss+AABAPwfuGz8AAEA/AAAgPxosPT8AACA/VM8CP5r0Gz8AAAA/x7nLPgAAAD8AAMA+uBIEPwAAwD66PSw/AAAgPwAAgD8AACA/AABAPwbuGz8AAEA/B+4bPwAAgD9UzyI/AAAAPxosXT8AAAA/GixdPwAAgD5UzyI/AACAPlTPIj8AAAA/VM8iPwAAgD6a9Bs/AACAPpn0Gz8AAAA/lLrLPgAAgD8H7hs/AACAPwbuGz8AAEA/lLrLPgAAQD+P2rc+AACAPo7atz4AAAA/yLnLPgAAAD/Iucs+AACAPsi5yz4AAAA/mfQbPwAAAD+a9Bs/AACAPsi5yz4AAIA+/UsQPgAAAD/+SxA+AACAPgAAAD4AAIA+AAAAPgAAAD8WCU8+AAAAP47atz4AAAA/j9q3PgAAgD4YCU8+AACAPoR2Mz4AAIA+gnYzPgAAAD+CdjM+AAAAP4R2Mz4AAIA+FglPPgAAAD8YCU8+AACAPhgJTz4AAIA+FglPPgAAAD8AAMA+XyIzPwAAwD66PSw/AADAPl8iMz8AAMA+MBKePQAAwD4A2k09AADAPjASnj0AAAEAAgAAAAIAAwAEAAUABgAGAAcACAAIAAkACgAKAAsADAANAAQABgAKAAwADQAGAAgACgAGAAoADQAOAA8AEAAQABEAEgASABMAFAAUABUAFgAXAA4AEAAUABYAFwAQABIAFAAQABQAFwAYABkAGgAYABoAGwAcAB0AHgAcAB4AHwAgACEAIgAgACIAIwAkACUAJgAkACYAJwAoACkAKgAoACoAKwAsAC0ALgAsAC4ALwAwADEAMgAwADIAMwA0ADUANgA0ADYANwA4ADkAOgA4ADoAOwA8AD0APgA8AD4APwBAAEEAQgBDAEQARQA="
+            "byteLength" : 3408,
+            "uri" : "fukidashi.bin"
         }
     ]
 }
