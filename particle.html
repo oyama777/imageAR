@@ -14,17 +14,35 @@
             position="0 0 -5" 
             particle-system="
                 preset: default;
-                texture: ./images/heart2.png;
-                color: #FF0000, #FFFF00; 
-                size: 1, 0;
-                velocityValue: 0.001 0.01 0.001;
-                velocitySpread: 0.5 1 0.5; 
+                maxAge: 3; 
+                positionSpread: 1 0 1;
+                type: 2;
+
+                rotationAxis: x;
+                rotationAngle: 0; 
+                rotationAngleSpread: 0; 
+
                 accelerationValue: 0.001 0.001 0.001;
                 accelerationSpread: 0.001 0.001 0.001;
-                rotationAngle: 0; 
-                blending: 1;
+
+                velocityValue: 0.01 0.1 0.01;
+                velocitySpread: 0.5 1 0.5;
+
+                dragValue: 0.5;
+                dragSpread: 0.5;
+                dragRandomise: false;
+                color: #FF0000, #FFA600; 
+                size: 1, 0;
+                direction: 1;
+                duration: 5;
+                enabled: true;
                 particleCount: 100;
-                maxAge: 3; ">
+                texture: ./images/heart2.png;
+                randomise: false;
+                opacity: 0.9;
+                blending: 4;
+                maxParticleCount: 100;                          
+      ">
     </a-entity> 
       <a-sky color="#000000"></a-sky>
     </a-scene>
