@@ -38,12 +38,6 @@
       <div>Loading, please wait...</div>
     </div>
 
-    <button id="00">公式</button>
-    <button id="01">シンプル青</button>
-    <button id="02">シンプル白</button>
-    <button id="03">サイバー紫</button>
-
-
     <a-scene
       vr-mode-ui='enabled: false;'
       renderer="logarithmicDepthBuffer: true; gammaOutput: true;"
@@ -59,48 +53,24 @@
           smoothThreshold='5'>
           <div id="entity"></div>
 
-          <a-entity rotation = "90 0 0"> 
-            <a-image src="./images/twitter/TwitterTemp_02.png" width="305" height="156" position="-1 -0.2 -5"></a-image>
+          <a-entity rotation = "-90 0 0"> 
+            <a-image src="./images/twitter/TwitterTemp_00.png" scale="6" width="9" height="4" position="35 30 0"></a-image>
           </a-entity>
-          <a-entity rotation = "90 0 0"> 
-            <a-image src="./images/twitter/TwitterTemp_00.png" width="9" height="4" position="2 0.5 -5"></a-image>
+
+          <a-entity rotation = "-90 0 0"> 
+            <a-image src="./images/twitter/TwitterTemp_01.png" width="305" height="156" position="50 40 -5"></a-image>
           </a-entity>
+
+          <a-entity rotation = "-90 0 0"> 
+            <a-image src="./images/twitter/TwitterTemp_02.png" width="305" height="156" position="65 50 -5"></a-image>
+          </a-entity>
+
+          <a-entity rotation = "-90 0 0"> 
+            <a-image src="./images/twitter/TwitterTemp_03.png" width="305" height="156" position="65 10 -5"></a-image>
+          </a-entity>
+
         </a-nft>
         <a-entity camera></a-entity>
     </a-scene>
   </body>
 </html>
-
-<script>
-  const entity = document.getElementById('entity');
-
-  const btn_00 = document.getElementById(`00`);
-  const btn_01 = document.getElementById(`01`);
-  const btn_02 = document.getElementById(`02`);
-  const btn_03 = document.getElementById(`03`);
-
-  btn_00.addEventListener(`click`, func = () => {
-      entity.innerHTML = "<a-entity rotation = '90 0 0'>"
-                            + "<a-image src='./images/twitter/TwitterTemp_" + "00" + ".png' width='9' height='4' position='0 1.5 -5'></a-image>"
-                            + "</a-entity>";
-      console.log(entity.innerHTML);
-  });
-  btn_01.addEventListener(`click`, func = () => {
-      entity.innerHTML = "<a-entity rotation = '90 0 0'>"
-                            + "<a-image src='./images/twitter/TwitterTemp_" + "01" + ".png' width='305' height='156' position='0 1.5 -5'></a-image>"
-                            + "</a-entity>";
-      console.log(entity.innerHTML);
-  });
-  btn_02.addEventListener(`click`, func = () => {
-      entity.innerHTML = "<a-entity rotation = '90 0 0'>"
-                            + "<a-image src='./images/twitter/TwitterTemp_" + "02" + ".png' width='305' height='156' position='0 1.5 -5'></a-image>"
-                            + "</a-entity>";
-      console.log(entity.innerHTML);
-  });
-  btn_03.addEventListener(`click`, func = () => {
-      entity.innerHTML = "<a-entity rotation = '90 0 0'>"
-                            + "<a-image src='./images/twitter/TwitterTemp_" + "03" + ".png' width='305' height='156' position='0 1.5 -5'></a-image>"
-                            + "</a-entity>";
-      console.log(entity.innerHTML);
-  });
-</script>
